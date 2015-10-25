@@ -32,7 +32,7 @@ crayon.actualColor
 let paintBrush = Color.Blue
 paintBrush.actualColor
 
-crayon.colorSwatch(width: 300, height: 200)
+crayon.colorSwatch(width: 500, height: 200)
 
 
 

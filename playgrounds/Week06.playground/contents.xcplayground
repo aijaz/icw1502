@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='Untitled Page'/>
+        <page name='Create a struct'/>
+        <page name='Stored Properties'/>
+        <page name='Computed Properties'/>
+        <page name='Will and Did Set'/>
+        <page name='Custom String Convertible'/>
+        <page name='Equatable'/>
+        <page name='Methods'/>
+        <page name='AccessLevels'/>
+        <page name='Composition'/>
+    </pages>
+</playground>
