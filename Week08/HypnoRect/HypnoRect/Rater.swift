@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol Stencil {
+    func draw(rect: CGRect, selected: Bool)->()
+}
+
 protocol RaterDelegate {
     func ratingSetTo(rating rating: Int) ->()
 }
@@ -18,6 +22,7 @@ class Rater: UIControl {
     var spacing:CGFloat = 6.0
     var width: CGFloat = 0.0
     var delegate: RaterDelegate?
+    var stencil:Stencil?
     
     var value = 0 {
         didSet {
@@ -33,19 +38,10 @@ class Rater: UIControl {
             width = rect.size.height
             spacing = (rect.size.width - (width * CGFloat(numSlots)))/CGFloat(numSlots + 1)
         }
-        for i in 0 ..< numSlots {
-            let path = UIBezierPath(arcCenter: CGPoint(x: 50, y: 50),
-                radius: 48, startAngle: 0, endAngle: CGFloat(2 * M_PI), clockwise: true)
-            
-            // path is drawn at 100x100. We need to shrink to fit width x width
-            let transform = CGAffineTransformMakeScale(width/100, width/100)
-            path.applyTransform(transform)
-            let x = spacing + CGFloat(i) * (width + spacing)
-            let translation = CGAffineTransformMakeTranslation(x, 4)
-            path.applyTransform(translation)
-            path.stroke()
-            if i < value {
-                path.fill()
+        if let stencilToDraw = stencil {
+            for i in 0 ..< numSlots {
+                let rectToDrawIn = CGRect(x: spacing + CGFloat(i) * (width + spacing), y: 6, width: width, height: width)
+                stencilToDraw.draw(rectToDrawIn, selected: i < value)
             }
         }
     }

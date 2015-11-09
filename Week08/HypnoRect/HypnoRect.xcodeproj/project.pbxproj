@@ -16,6 +16,9 @@
 		B45871E01BEE68A5004A4AA5 /* HypnoRectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45871DF1BEE68A5004A4AA5 /* HypnoRectUITests.swift */; };
 		B45871EE1BEE6973004A4AA5 /* HypnoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45871ED1BEE6973004A4AA5 /* HypnoView.swift */; };
 		B45871F01BEE72DF004A4AA5 /* Rater.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45871EF1BEE72DF004A4AA5 /* Rater.swift */; };
+		B45871F21BEF25F2004A4AA5 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45871F11BEF25F2004A4AA5 /* Circle.swift */; };
+		B45871F41BEF261D004A4AA5 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45871F31BEF261D004A4AA5 /* Triangle.swift */; };
+		B45871F61BEF277E004A4AA5 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45871F51BEF277E004A4AA5 /* Star.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		B45871E11BEE68A5004A4AA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B45871ED1BEE6973004A4AA5 /* HypnoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HypnoView.swift; sourceTree = "<group>"; };
 		B45871EF1BEE72DF004A4AA5 /* Rater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rater.swift; sourceTree = "<group>"; };
+		B45871F11BEF25F2004A4AA5 /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		B45871F31BEF261D004A4AA5 /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		B45871F51BEF277E004A4AA5 /* Star.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				B45871CB1BEE68A5004A4AA5 /* Info.plist */,
 				B45871ED1BEE6973004A4AA5 /* HypnoView.swift */,
 				B45871EF1BEE72DF004A4AA5 /* Rater.swift */,
+				B45871F11BEF25F2004A4AA5 /* Circle.swift */,
+				B45871F31BEF261D004A4AA5 /* Triangle.swift */,
+				B45871F51BEF277E004A4AA5 /* Star.swift */,
 			);
 			path = HypnoRect;
 			sourceTree = "<group>";
@@ -262,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B45871F21BEF25F2004A4AA5 /* Circle.swift in Sources */,
 				B45871F01BEE72DF004A4AA5 /* Rater.swift in Sources */,
 				B45871C21BEE68A5004A4AA5 /* ViewController.swift in Sources */,
+				B45871F61BEF277E004A4AA5 /* Star.swift in Sources */,
+				B45871F41BEF261D004A4AA5 /* Triangle.swift in Sources */,
 				B45871C01BEE68A5004A4AA5 /* AppDelegate.swift in Sources */,
 				B45871EE1BEE6973004A4AA5 /* HypnoView.swift in Sources */,
 			);

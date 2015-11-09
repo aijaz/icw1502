@@ -18,6 +18,7 @@ class ViewController: UIViewController, RaterDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         raterView.delegate = self
+        self.raterView.stencil = Star()
     }
 
     override func didReceiveMemoryWarning() {
