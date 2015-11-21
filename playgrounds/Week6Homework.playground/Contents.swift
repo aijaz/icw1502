@@ -2,7 +2,7 @@ import Foundation
 import UIKit
 
 public struct Item {
-    var itemID: Int
+    let itemID: Int
     var name: String
     var manufacturer: String?
     var dateBought: NSDate?
@@ -12,14 +12,23 @@ public struct Item {
     var serialNumber: String?
     var productURL: NSURL?
     var notes: String?
+
+    init (itemID: Int, name: String) {
+        self.itemID = itemID
+        self.name = name
+    }
     
 }
+
 
 extension Item : CustomStringConvertible {
     public var description: String {
         return name
     }
 }
+
+var i1 = Item(itemID: 1, name: "Aijaz")
+i1.manufacturer = "FOO"
 
 
 public enum DataSourceException : ErrorType {

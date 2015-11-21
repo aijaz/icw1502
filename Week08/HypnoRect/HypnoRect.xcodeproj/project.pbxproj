@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B41AE8AD1C0036D600659221 /* NumericInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41AE8AC1C0036D600659221 /* NumericInputViewController.swift */; };
 		B45871C01BEE68A5004A4AA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45871BF1BEE68A5004A4AA5 /* AppDelegate.swift */; };
 		B45871C21BEE68A5004A4AA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45871C11BEE68A5004A4AA5 /* ViewController.swift */; };
 		B45871C51BEE68A5004A4AA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45871C31BEE68A5004A4AA5 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B41AE8AC1C0036D600659221 /* NumericInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumericInputViewController.swift; sourceTree = "<group>"; };
 		B45871BC1BEE68A5004A4AA5 /* HypnoRect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypnoRect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45871BF1BEE68A5004A4AA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B45871C11BEE68A5004A4AA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				B45871BF1BEE68A5004A4AA5 /* AppDelegate.swift */,
 				B45871C11BEE68A5004A4AA5 /* ViewController.swift */,
 				B45871C31BEE68A5004A4AA5 /* Main.storyboard */,
+				B41AE8AC1C0036D600659221 /* NumericInputViewController.swift */,
 				B45871C61BEE68A5004A4AA5 /* Assets.xcassets */,
 				B45871C81BEE68A5004A4AA5 /* LaunchScreen.storyboard */,
 				B45871CB1BEE68A5004A4AA5 /* Info.plist */,
@@ -273,6 +276,7 @@
 			files = (
 				B45871F21BEF25F2004A4AA5 /* Circle.swift in Sources */,
 				B45871F01BEE72DF004A4AA5 /* Rater.swift in Sources */,
+				B41AE8AD1C0036D600659221 /* NumericInputViewController.swift in Sources */,
 				B45871C21BEE68A5004A4AA5 /* ViewController.swift in Sources */,
 				B45871F61BEF277E004A4AA5 /* Star.swift in Sources */,
 				B45871F41BEF261D004A4AA5 /* Triangle.swift in Sources */,
@@ -504,6 +508,7 @@
 				B45871E61BEE68A5004A4AA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B45871E71BEE68A5004A4AA5 /* Build configuration list for PBXNativeTarget "HypnoRectTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +517,7 @@
 				B45871E91BEE68A5004A4AA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B45871EA1BEE68A5004A4AA5 /* Build configuration list for PBXNativeTarget "HypnoRectUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +526,7 @@
 				B45871EC1BEE68A5004A4AA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

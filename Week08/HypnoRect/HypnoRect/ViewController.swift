@@ -18,7 +18,7 @@ class ViewController: UIViewController, RaterDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         raterView.delegate = self
-        self.raterView.stencil = Star()
+        self.raterView.stencil = Circle()
     }
 
     override func didReceiveMemoryWarning() {
@@ -33,6 +33,27 @@ class ViewController: UIViewController, RaterDelegate {
     func ratingSetTo(rating rating: Int) {
         if rating > 0 {
             hypnoView.lineWidth = CGFloat(rating * 2)
+        }
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "showNumericEntry" {
+            let dest = segue.destinationViewController as! NumericInputViewController
+            let currentWidth = Int(hypnoView.lineWidth)
+            dest.initialWidth = currentWidth
+            
+            dest.textHandler = { text in
+                var width = 5
+                if let text = text {
+                    if let intWidth = Int(text) {
+                        if intWidth > 0 && intWidth < 20 {
+                            width = intWidth
+                        }
+                    }
+                }
+                self.hypnoView.lineWidth = CGFloat(width)
+            }
+
         }
     }
 }
