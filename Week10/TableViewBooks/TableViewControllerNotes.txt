@@ -1,0 +1,20 @@
+UIViewController
+^
++- UITableViewController
+      (has a property called tableView)
+      tableView is UIView
+
+a tableView needs a DataSource and a Delegate
+These are protocols
+
+UITableViewDataSource protocol is responsible for:
+1) How many sections
+2) How many rows
+..
+
+UITableViewDelegate protocol is responsible for:
+1) What happens when I tap on a row
+
+a UITableView needs an object that conforms to UITableViewDelegate and an object that conforms to UITableViewDataSource
+
+You could have the same object conform to both

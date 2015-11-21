@@ -46,7 +46,7 @@ class ViewController: UIViewController, RaterDelegate {
                 var width = 5
                 if let text = text {
                     if let intWidth = Int(text) {
-                        if intWidth > 0 && intWidth < 20 {
+                        if intWidth > 0 && intWidth <= 20 {
                             width = intWidth
                         }
                     }
