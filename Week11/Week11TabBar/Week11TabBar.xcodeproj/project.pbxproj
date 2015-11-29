@@ -34,6 +34,24 @@
 		B4D7412D1C0A10F000CBC51C /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D7411A1C0A10F000CBC51C /* Star.swift */; };
 		B4D7412E1C0A10F000CBC51C /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D7411A1C0A10F000CBC51C /* Star.swift */; };
 		B4D7412F1C0A10F000CBC51C /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D7411A1C0A10F000CBC51C /* Star.swift */; };
+		B4D7413A1C0A16D700CBC51C /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D741301C0A16D700CBC51C /* BookTableViewCell.swift */; };
+		B4D7413B1C0A16D700CBC51C /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D741301C0A16D700CBC51C /* BookTableViewCell.swift */; };
+		B4D7413C1C0A16D700CBC51C /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D741301C0A16D700CBC51C /* BookTableViewCell.swift */; };
+		B4D7413D1C0A16D700CBC51C /* BookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D741331C0A16D700CBC51C /* BookTableViewController.swift */; };
+		B4D7413E1C0A16D700CBC51C /* BookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D741331C0A16D700CBC51C /* BookTableViewController.swift */; };
+		B4D7413F1C0A16D700CBC51C /* BookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D741331C0A16D700CBC51C /* BookTableViewController.swift */; };
+		B4D741401C0A16D700CBC51C /* BookDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D741341C0A16D700CBC51C /* BookDetailTableViewController.swift */; };
+		B4D741411C0A16D700CBC51C /* BookDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D741341C0A16D700CBC51C /* BookDetailTableViewController.swift */; };
+		B4D741421C0A16D700CBC51C /* BookDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D741341C0A16D700CBC51C /* BookDetailTableViewController.swift */; };
+		B4D741431C0A16D700CBC51C /* NumericEntryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D741351C0A16D700CBC51C /* NumericEntryTableViewController.swift */; };
+		B4D741441C0A16D700CBC51C /* NumericEntryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D741351C0A16D700CBC51C /* NumericEntryTableViewController.swift */; };
+		B4D741451C0A16D700CBC51C /* NumericEntryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D741351C0A16D700CBC51C /* NumericEntryTableViewController.swift */; };
+		B4D741461C0A16D700CBC51C /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D741371C0A16D700CBC51C /* Book.swift */; };
+		B4D741471C0A16D700CBC51C /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D741371C0A16D700CBC51C /* Book.swift */; };
+		B4D741481C0A16D700CBC51C /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D741371C0A16D700CBC51C /* Book.swift */; };
+		B4D741491C0A16D700CBC51C /* TableViewControllerNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = B4D741381C0A16D700CBC51C /* TableViewControllerNotes.txt */; };
+		B4D7414A1C0A16D700CBC51C /* TableViewControllerNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = B4D741381C0A16D700CBC51C /* TableViewControllerNotes.txt */; };
+		B4D7414B1C0A16D700CBC51C /* TableViewControllerNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = B4D741381C0A16D700CBC51C /* TableViewControllerNotes.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +91,12 @@
 		B4D741181C0A10F000CBC51C /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 		B4D741191C0A10F000CBC51C /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		B4D7411A1C0A10F000CBC51C /* Star.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		B4D741301C0A16D700CBC51C /* BookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookTableViewCell.swift; path = Views/TableViewCells/BookTableViewCell.swift; sourceTree = "<group>"; };
+		B4D741331C0A16D700CBC51C /* BookTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookTableViewController.swift; path = Controllers/BookTableViewController.swift; sourceTree = "<group>"; };
+		B4D741341C0A16D700CBC51C /* BookDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookDetailTableViewController.swift; path = Controllers/BookDetailTableViewController.swift; sourceTree = "<group>"; };
+		B4D741351C0A16D700CBC51C /* NumericEntryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumericEntryTableViewController.swift; path = Controllers/NumericEntryTableViewController.swift; sourceTree = "<group>"; };
+		B4D741371C0A16D700CBC51C /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Book.swift; path = Model/Book.swift; sourceTree = "<group>"; };
+		B4D741381C0A16D700CBC51C /* TableViewControllerNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TableViewControllerNotes.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +127,9 @@
 		B4D740DA1C0A0DF200CBC51C = {
 			isa = PBXGroup;
 			children = (
+				B4D741321C0A16D700CBC51C /* View */,
+				B4D741361C0A16D700CBC51C /* Controller */,
+				B4D741391C0A16D700CBC51C /* Model */,
 				B4D740E51C0A0DF200CBC51C /* Week11TabBar */,
 				B4D740FA1C0A0DF200CBC51C /* Week11TabBarTests */,
 				B4D741051C0A0DF200CBC51C /* Week11TabBarUITests */,
@@ -155,6 +182,44 @@
 				B4D741081C0A0DF200CBC51C /* Info.plist */,
 			);
 			path = Week11TabBarUITests;
+			sourceTree = "<group>";
+		};
+		B4D741311C0A16D700CBC51C /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				B4D741301C0A16D700CBC51C /* BookTableViewCell.swift */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		B4D741321C0A16D700CBC51C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B4D741311C0A16D700CBC51C /* TableViewCells */,
+			);
+			name = View;
+			path = ../../Week10/TableViewBooks;
+			sourceTree = "<group>";
+		};
+		B4D741361C0A16D700CBC51C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B4D741331C0A16D700CBC51C /* BookTableViewController.swift */,
+				B4D741341C0A16D700CBC51C /* BookDetailTableViewController.swift */,
+				B4D741351C0A16D700CBC51C /* NumericEntryTableViewController.swift */,
+			);
+			name = Controller;
+			path = ../../Week10/TableViewBooks;
+			sourceTree = "<group>";
+		};
+		B4D741391C0A16D700CBC51C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4D741371C0A16D700CBC51C /* Book.swift */,
+				B4D741381C0A16D700CBC51C /* TableViewControllerNotes.txt */,
+			);
+			name = Model;
+			path = ../../Week10/TableViewBooks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +328,7 @@
 			files = (
 				B4D740F11C0A0DF200CBC51C /* LaunchScreen.storyboard in Resources */,
 				B4D740EE1C0A0DF200CBC51C /* Assets.xcassets in Resources */,
+				B4D741491C0A16D700CBC51C /* TableViewControllerNotes.txt in Resources */,
 				B4D740EC1C0A0DF200CBC51C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +337,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4D7414A1C0A16D700CBC51C /* TableViewControllerNotes.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +345,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4D7414B1C0A16D700CBC51C /* TableViewControllerNotes.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,13 +356,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4D741431C0A16D700CBC51C /* NumericEntryTableViewController.swift in Sources */,
+				B4D7413D1C0A16D700CBC51C /* BookTableViewController.swift in Sources */,
 				B4D741241C0A10F000CBC51C /* Rater.swift in Sources */,
 				B4D7411E1C0A10F000CBC51C /* NumericInputViewController.swift in Sources */,
 				B4D7411B1C0A10F000CBC51C /* HypnoViewController.swift in Sources */,
 				B4D740E71C0A0DF200CBC51C /* AppDelegate.swift in Sources */,
+				B4D741401C0A16D700CBC51C /* BookDetailTableViewController.swift in Sources */,
+				B4D7413A1C0A16D700CBC51C /* BookTableViewCell.swift in Sources */,
 				B4D741211C0A10F000CBC51C /* HypnoView.swift in Sources */,
 				B4D7412A1C0A10F000CBC51C /* Triangle.swift in Sources */,
 				B4D741271C0A10F000CBC51C /* Circle.swift in Sources */,
+				B4D741461C0A16D700CBC51C /* Book.swift in Sources */,
 				B4D7412D1C0A10F000CBC51C /* Star.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,13 +376,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4D741441C0A16D700CBC51C /* NumericEntryTableViewController.swift in Sources */,
+				B4D7413E1C0A16D700CBC51C /* BookTableViewController.swift in Sources */,
 				B4D741251C0A10F000CBC51C /* Rater.swift in Sources */,
 				B4D7411F1C0A10F000CBC51C /* NumericInputViewController.swift in Sources */,
 				B4D7411C1C0A10F000CBC51C /* HypnoViewController.swift in Sources */,
 				B4D740FC1C0A0DF200CBC51C /* Week11TabBarTests.swift in Sources */,
+				B4D741411C0A16D700CBC51C /* BookDetailTableViewController.swift in Sources */,
+				B4D7413B1C0A16D700CBC51C /* BookTableViewCell.swift in Sources */,
 				B4D741221C0A10F000CBC51C /* HypnoView.swift in Sources */,
 				B4D7412B1C0A10F000CBC51C /* Triangle.swift in Sources */,
 				B4D741281C0A10F000CBC51C /* Circle.swift in Sources */,
+				B4D741471C0A16D700CBC51C /* Book.swift in Sources */,
 				B4D7412E1C0A10F000CBC51C /* Star.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,13 +396,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4D741451C0A16D700CBC51C /* NumericEntryTableViewController.swift in Sources */,
+				B4D7413F1C0A16D700CBC51C /* BookTableViewController.swift in Sources */,
 				B4D741261C0A10F000CBC51C /* Rater.swift in Sources */,
 				B4D741201C0A10F000CBC51C /* NumericInputViewController.swift in Sources */,
 				B4D7411D1C0A10F000CBC51C /* HypnoViewController.swift in Sources */,
 				B4D741071C0A0DF200CBC51C /* Week11TabBarUITests.swift in Sources */,
+				B4D741421C0A16D700CBC51C /* BookDetailTableViewController.swift in Sources */,
+				B4D7413C1C0A16D700CBC51C /* BookTableViewCell.swift in Sources */,
 				B4D741231C0A10F000CBC51C /* HypnoView.swift in Sources */,
 				B4D7412C1C0A10F000CBC51C /* Triangle.swift in Sources */,
 				B4D741291C0A10F000CBC51C /* Circle.swift in Sources */,
+				B4D741481C0A16D700CBC51C /* Book.swift in Sources */,
 				B4D7412F1C0A10F000CBC51C /* Star.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -536,6 +619,7 @@
 				B4D7410D1C0A0DF200CBC51C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4D7410E1C0A0DF200CBC51C /* Build configuration list for PBXNativeTarget "Week11TabBarTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +628,7 @@
 				B4D741101C0A0DF200CBC51C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4D741111C0A0DF200CBC51C /* Build configuration list for PBXNativeTarget "Week11TabBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +637,7 @@
 				B4D741131C0A0DF200CBC51C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -34,7 +34,8 @@ class NumericEntryViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func handleDone(sender: AnyObject) {
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
         var numPages = 1
         if let pagesString = textField.text {
             if let numPagesUnwrapped = Int(pagesString) {
@@ -42,7 +43,7 @@ class NumericEntryViewController: UIViewController {
             }
         }
         completionHandler?(numPages)
-        dismissViewControllerAnimated(true, completion: nil)
     }
 
+    
 }

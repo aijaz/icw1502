@@ -34,6 +34,7 @@ class BookDetailTableViewController: UITableViewController {
             languageLabel.text = book.language.rawValue
             
         }
+        navigationItem.title = "Detail"
     }
 
     override func didReceiveMemoryWarning() {
@@ -41,10 +42,16 @@ class BookDetailTableViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func handleDone(sender: AnyObject) {
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        completionHandler?(book!)
+    }
+    
+    func done () {
         completionHandler?(book!)
         dismissViewControllerAnimated(true, completion: nil)
     }
+    
     // MARK: - Table view data source
 
 
