@@ -1,0 +1,24 @@
+Changes made
+o Did Cmd-Opt on title and author
+o Moved blur image behind full image
+o Clip Subviews on blur image
+o Made stackview spacing 8
+o Put blur and full image in a stackview
+o Rename that stackView to ImageStackView
+o Blur to view equal height * 0.5
+o Same for fullImage
+o Pin Blur to top at 0
+o Pin FullImage to bottom at 0
+o Pin imageStackView to all 4 0, -20, 0, -20
+o Transclucent to Blur: same top, leading, width, height
+o Select transclucent and hit Cmd-Opt-=
+o Label stackview to transclucent: top, leading, equal width, equal height Should have no warnings now
+o Run and show
+o move stackview left and bottom in by 8, -8
+o Change view bg to black
+o Run. 
+
+o compact any
+o change imagestackview to horiz
+o reset all frames
+o Customize 2 constraints: BlurImage.height and fullImage.height: change them from multiplier of 1 to 0.5
