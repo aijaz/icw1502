@@ -124,6 +124,7 @@
                                     <constraint firstAttribute="bottom" secondItem="4IL-4K-KtJ" secondAttribute="bottom" id="MzV-Ia-8eR"/>
                                     <constraint firstItem="p8D-6q-T7h" firstAttribute="top" secondItem="Kk8-GF-EYj" secondAttribute="top" id="aTI-Dp-qHu"/>
                                 </constraints>
+                                <variation key="heightClass=compact" axis="horizontal"/>
                             </stackView>
                             <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y8e-H7-zNc" userLabel="Transclucent">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
@@ -176,6 +177,12 @@
                             <constraint firstItem="fOy-mh-Mqw" firstAttribute="top" secondItem="Kk8-GF-EYj" secondAttribute="bottom" id="tpx-DY-9AJ"/>
                             <constraint firstItem="Uzw-Ha-oao" firstAttribute="top" secondItem="Y8e-H7-zNc" secondAttribute="top" id="yhM-dM-mFa"/>
                         </constraints>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="3Tg-gR-0fP"/>
+                                <exclude reference="cQm-9U-llc"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="28w-wz-BPz"/>
                     <connections>

@@ -21,4 +21,13 @@ o Run.
 o compact any
 o change imagestackview to horiz
 o reset all frames
-o Customize 2 constraints: BlurImage.height and fullImage.height: change them from multiplier of 1 to 0.5
+o Add a new setting for imagestackview - make it horiz in compact height
+o Run
+o Rotate. Look at errors
+o Show cheat by going to compact height mode
+o Show educated guess: It's the half height bit. 
+o Why? We're want it to be full height as well as half height
+o Go to those two constraints and uninstall them in compact height
+o Still seeing errors only while rotating from landscape to portrait. That's ok.
+
+o UISplitViewController
