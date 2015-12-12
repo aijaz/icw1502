@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BookTableViewController: UITableViewController {
+class BookTableViewController: UITableViewController, UISplitViewControllerDelegate {
 
     var books: [Book]!
     
@@ -39,6 +39,7 @@ class BookTableViewController: UITableViewController {
 //        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "addItem")
         
         splitViewController?.preferredDisplayMode = .AllVisible
+        splitViewController?.delegate = self
 
     }
 
@@ -138,4 +139,8 @@ class BookTableViewController: UITableViewController {
         performSegueWithIdentifier("newItemSegue", sender: self)
     }
     
+    
+    func splitViewController(splitViewController: UISplitViewController, collapseSecondaryViewController secondaryViewController: UIViewController, ontoPrimaryViewController primaryViewController: UIViewController) -> Bool {
+        return true
+    }
 }
