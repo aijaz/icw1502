@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BookTableViewController: UITableViewController {
+class BookTableViewController: UITableViewController, UISplitViewControllerDelegate {
 
     var books: [Book]!
     
@@ -37,6 +37,8 @@ class BookTableViewController: UITableViewController {
         navigationItem.rightBarButtonItem = editButtonItem()
         
 //        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "addItem")
+        splitViewController?.preferredDisplayMode = .AllVisible
+        // splitViewController?.delegate = self
 
     }
 
