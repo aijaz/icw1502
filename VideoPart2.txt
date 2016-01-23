@@ -31,3 +31,26 @@ o Go to those two constraints and uninstall them in compact height
 o Still seeing errors only while rotating from landscape to portrait. That's ok.
 
 o UISplitViewController
+o Drag a UISplitViewController onto the scene. Make it the initial.
+o Delete the detail
+o Make the detail be the detail. 
+o Run on iPhone 6
+o Run on iPhone 6Plus - transitions may be bad
+o Toggle segue to modal and back to push
+o Should work now
+o Show on iPad
+o Problems: Starts on detail
+o Overlay display mode
+o Fix overlay with SplitViewDelegate
+
+
+    func splitViewController(splitViewController: UISplitViewController, collapseSecondaryViewController secondaryViewController: UIViewController, ontoPrimaryViewController primaryViewController: UIViewController) -> Bool {
+        if let secondaryAsNavController = secondaryViewController as? UINavigationController,
+            topAsDetailController = secondaryAsNavController.topViewController as?  BookDetailViewController where topAsDetailController.book == nil {
+                return true
+        }
+        return false
+    }
+
+
+    
